@@ -1,0 +1,18 @@
+.container {
+ position: relative;
+}
+
+.corpo{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    right: 500px;
+}
+
+.chapeu {
+    position: absolute;
+    left: 657px;
+    top: 63px;
+    right: 500px;
+    bottom: 100px;
+}

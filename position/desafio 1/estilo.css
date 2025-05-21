@@ -1,0 +1,81 @@
+.container {
+    border: 2px dashed;
+    height: 200px;
+}
+.container-2 {
+    border: 2px dashed;
+}
+.container-3 {
+    border: 2px dashed;
+    position: relative;
+    height: 300px;
+}
+.parado {
+    position: relative;
+    background-color: rgb(122, 122, 240);
+    left: 50px;
+}
+.static {
+    position: relative;
+    background-color: rgb(236, 236, 153);
+    left: 30px;
+}
+.relative {
+    position: relative;
+    background-color: brown;
+    left: 60px;
+    top: -42px;
+}
+.fixed {
+  position: fixed; 
+  background-color: rgb(14, 187, 130);
+  top: 650px;
+  right: 10px;
+  z-index: 1;
+}
+.quadrado {
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+}
+.borda {
+    width: 100px;
+    height: 100px;
+}
+.estrela {
+    position: absolute;
+    left: 8px;
+    top: 18px;
+    font-size: 50px;
+}
+.coracao {
+    position: absolute;
+    left: 120px;
+    top: 90px;
+    font-size: 50px;
+}
+.like {
+    position: absolute;   
+    left: 45%;
+    top: 170px;
+    font-size: 30px;
+
+}
+.raio { 
+    position: absolute;
+    left: 96%;
+    top: 250px;
+    font-size: 30px;
+}
+.container-4 {
+    position: sticky;
+    top:0;
+    background-color: rgb(187, 121, 97);
+    height: 90px;    
+}
+body {
+    height: 300vh;
+    
+}
